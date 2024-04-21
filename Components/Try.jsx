@@ -28,7 +28,7 @@ function movePosition(position, direction, numRows, numCols) {
   }
 }
 
-export default function GamePit() {
+export default function GamePitx() {
   const numCols = 20;
   const numRows = 10;
   const dotSize = 50; // Adjusted for larger cells
