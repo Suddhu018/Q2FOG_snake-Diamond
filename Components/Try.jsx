@@ -173,17 +173,7 @@ export default function GamePitx() {
         onMouseMove={handleMouseMove}
         onClick={handleSnakeClick}
       >
-        {/* Display the pit */}
-        {[...Array(numRows)].map((_, rowIdx) => (
-          <div key={`row-${rowIdx}`} className="flex">
-            {[...Array(numCols)].map((_, colIdx) => (
-              <div
-                key={`dot-${rowIdx}-${colIdx}`}
-                className={`w-[${dotSize}px] h-[${dotSize}px] border border-gray-300`}
-              ></div>
-            ))}
-          </div>
-        ))}
+        
 
         {/* Display diamonds */}
         {diamonds.map((diamond, index) => (
