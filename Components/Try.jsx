@@ -180,7 +180,7 @@ export default function GamePitx() {
             {[...Array(numCols)].map((_, colIdx) => (
               <div
                 key={`dot-${rowIdx}-${colIdx}`}
-                className={`w-[${dotSize}px] h-[${dotSize}px] border border-gray-300`}
+                className={`w-[${dotSize}px] h-[${dotSize}px] border border-red-500`}
               ></div>
             ))}
           </div>
