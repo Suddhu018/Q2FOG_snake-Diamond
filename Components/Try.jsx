@@ -176,11 +176,11 @@ export default function GamePitx() {
         
   {/* Display the pit */}
         {[...Array(numRows)].map((_, rowIdx) => (
-          <div key={`row-${rowIdx}`} className="">
+          <div key={`row-${rowIdx}`} className="flex">
             {[...Array(numCols)].map((_, colIdx) => (
               <div
                 key={`dot-${rowIdx}-${colIdx}`}
-                className={`w-[${dotSize}px] h-[${dotSize}px] border border-red-500`}
+                className={`w-[50px] h-[50px] border border-red-500`}
               ></div>
             ))}
           </div>
